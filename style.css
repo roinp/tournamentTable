@@ -1,0 +1,95 @@
+body {
+    background-image: url(./champions.jpg);
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.tournament-name {
+    background-color: transparent;
+    display: inline-block;
+    color: yellow;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.head {
+    background-color: blueviolet;
+    border: 2px solid green;
+    display: inline-block;
+    
+
+}
+
+.button {
+    border: 2px solid blue;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.input {
+    padding: 5px;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.input.new-tournament {
+    padding: 10px;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+} 
+
+.nav a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav a.active {
+    border-color:  rgb(13, 228, 66);
+}
+
+.new-tournament-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teams .input {
+    display: block;
+    margin: 10px auto;
+    
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit p {
+    display: block;
+    width: 150px;
+   margin-left: 375px;
+   background-color:rebeccapurple;
+}
+
+
+.submit input {
+    background-color: rgb(13, 228, 66);
+    color: rgb(75, 7, 153);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav"> 
+        <a href="#" class="active button"> Home </a>
+        <a href="./history.html" class="button" > History </a>
+    </div>
+    <div class="none tournament-name" id="tournament-head">
+
+    </div>
+    <div class="start-wrapper none">
+        <button class="button" id="start">Start</button>
+        <input type="text" class="input new-tournament" id="tournament-name" placeholder="Tournament Name">
+        <div class="teams" id="teams">
+            <input type="text" class="input" placeholder="Team Name">
+        </div>
+        <button id="add-team" class="button">Add New Team</button>
+    </div>
+   
+    <div class="new-tournament-wrapper" id="new-tournament" >
+        <button class="button">New Tournament</button>
+    </div>    
+
+
+    <div class="none" id="tournament-table">
+        <div class="table-wrapper">
+            
+            <table>
+                <thead>
+                    <tr class="main">
+                        <th>#</th>
+                        <th>T E A M</th>
+                        <th>G A M E S</th>
+                        <th>G O A L S</th>
+                        <th>S C O R E</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>  
+            
+        </div>
+        <div class="choese">
+            <select class="select" id="team1">
+            <option>choese your team</option>
+                
+            </select>
+
+            <input type="text" class="value" id="value1">
+
+            <input type="text" class="value" id="value2">
+            <select class="select" id="team2">
+                <option>choese your team</option>
+            
+            </select>
+            <div class="submit">
+                <input type="submit"  id="submit">
+                <p id="finish-button">Finish Tournament</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>

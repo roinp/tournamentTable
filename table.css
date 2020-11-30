@@ -1,0 +1,129 @@
+body {
+    background-image: url(./champions.jpg);
+    text-align: center;
+}
+.table-wrapper {
+   
+   text-align: center;
+   
+}
+
+.table-wrapper h2 {
+    background-color: transparent;
+    color: yellow;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.table-wrapper table {
+    display: inline-block;
+}
+
+.main {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:transparent;
+    color: white;
+    border: 2px solid green;
+    margin-top: 20px;
+    
+    
+
+}
+.main th {
+    margin-top: 20px;
+}
+
+th {
+    text-align: center;
+    border: 2px solid green;
+    margin-top:30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    height: 20px;
+}
+td {
+    text-align: center;
+    border: 2px solid green;
+    margin:30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.select  {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid green;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box
+}
+
+.value {
+    tab-size: 5px;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    color: white;
+    font-size: 15px;
+    border: 2px solid green;
+    
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    
+    
+    
+}
+
+.submit p {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.choese {
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.select  {
+    background-color:rgb(12, 12, 202);
+    color:white;
+    font-weight: bold;
+}
